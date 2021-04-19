@@ -9,12 +9,13 @@
   "author": "William Giani",
   "license": "ISC",
   "bin": {
-    "hello": "./bin/index.js"
+    "cnc": "./bin/index.js"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/TheHoltz/easycomponentfiles.git"
   },
+  "preferGlobal": true,
   "dependencies": {
     "yargs": "^16.2.0"
   }

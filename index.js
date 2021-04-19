@@ -6,12 +6,7 @@ const options = yargs.usage("Usage: -n <name>").option("n", {
   describe: "Name of the component",
   type: "string",
   demandOption: true,
-});
-// .option("js", {
-//   alias: "javascript",
-//   describe: "Create component with javascript instead of typescript",
-//   type: "string",
-// }).argv;
+}).argv;
 
 const capitalizeFirstLetter = (string) =>
   string.charAt(0).toUpperCase() + string.slice(1);
