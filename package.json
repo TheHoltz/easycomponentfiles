@@ -9,7 +9,7 @@
   "author": "William Giani",
   "license": "ISC",
   "bin": {
-    "cnc": "./bin/index.js"
+    "cnc": "./index.js"
   },
   "repository": {
     "type": "git",
