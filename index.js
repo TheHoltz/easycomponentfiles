@@ -3,7 +3,7 @@ const yargs = require("yargs");
 
 const options = yargs.usage("Usage: -n <name>").option("n", {
   alias: "name",
-  describe: "Name of the component",
+  describe: "Absolute name or the relative path with the name.",
   type: "string",
   demandOption: true,
 }).argv;
