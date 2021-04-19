@@ -16,7 +16,7 @@ cnc -n navbar
 
 The cnc are the initials of "create new component", and then you can provide the name of the component with the argument -n.
 
-Then will be created the following files:
+The result of the command are the creation of the following files:
 
 ![Files created](https://i.imgur.com/2An50mK.png "Files created")
 
