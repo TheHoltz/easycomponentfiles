@@ -1,7 +1,7 @@
 {
   "name": "easycomponentfiles",
   "version": "1.0.0",
-  "description": "A package to help create all new component boilerplate to a typescript NextJS project.",
+  "description": "A package to help create all new component boilerplate to a typescript React project.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
