@@ -56,14 +56,14 @@ const create = ({ name }) => {
     name,
     "index.ts",
     `export { default } from './${name}'
-export { ${name}Props } from './interfaces'
+export { ${name}Props } from './types'
 `
   );
 
   createFile(
     dir,
     name,
-    "interfaces.ts",
+    "types.ts",
     `export interface ${name}Props {
 
 }
