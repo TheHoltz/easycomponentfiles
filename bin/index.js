@@ -66,8 +66,7 @@ export { ${capitalizeFirstLetter(name)}Props } from './types'
     "types.ts",
     `export interface ${capitalizeFirstLetter(name)}Props {
 
-}
-    `
+}`
   );
 
   createFile(
