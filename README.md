@@ -4,8 +4,16 @@ A simple package to help create all new component boilerplate to a typescript Ne
 
 ## Installation
 
+NPM
+
 ```cmd
 npm i https://github.com/TheHoltz/easycomponentfiles -g
+```
+
+Yarn
+
+```cmd
+yarn global add https://github.com/TheHoltz/easycomponentfiles
 ```
 
 ## Simple Example

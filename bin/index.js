@@ -56,7 +56,7 @@ const create = ({ name }) => {
     name,
     "index.ts",
     `export { default } from './${name}'
-export { ${capitalizeFirstLetter(name)}Props } from './types'
+export type { ${capitalizeFirstLetter(name)}Props } from './types'
 `
   );
 
@@ -74,7 +74,7 @@ export { ${capitalizeFirstLetter(name)}Props } from './types'
     name,
     `${name}.tsx`,
     `import React from 'react';
-import { ${capitalizeFirstLetter(name)}Props } from '.'
+import type { ${capitalizeFirstLetter(name)}Props } from '.'
 import s from "./${name}.module.css";
 
 
