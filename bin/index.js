@@ -78,7 +78,9 @@ import { ${capitalizeFirstLetter(name)}Props } from '.'
 import s from "./${name}.module.css";
 
 
-const ${capitalizeFirstLetter(name)}: React.FC<${name}Props> = ({}) => {
+const ${capitalizeFirstLetter(name)}: React.FC<${capitalizeFirstLetter(
+      name
+    )}Props> = ({}) => {
     return(
         <>
             
